@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html body {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: #1f0f2b;
+  float: left;
+}
+._container {
+  width: 100%;
+  height: 175px;
+
+  margin: 0;
+  padding: 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+
+/*!  start new menu ...  */
+.menu {
+  height: 70px;
+  width: 1525px;
+  margin: auto;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #3f255f;
+  
+}
+
+.menu .float_right ul {
+  width: 1100px;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  right: 0;
+  display: inline-block;
+}
+@font-face {
+  font-family: logo;
+  src: url('./fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+.menu .float_right ul .first_li a {
+  font-size: 68px;
+  font-family: logo;
+  line-height: 30px;
+  transition: all 0.5s;
+  color: #b1b7ea;
+}
+.menu .float_right ul .first_li a:hover {
+  color: #fff;
+}
+.menu .float_right ul li {
+  margin: 2%;
+  float: left;
+  background-color: transparent;
+  line-height: 35px;
+  position: relative;
+  float: right;
+}
+@font-face {
+  font-family: arabic;
+  src: url('./fonts/Changa-ExtraBold.ttf');
+}
+.menu ul a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  font-family: option-slider;
+}
+.menu ul li:hover > a {
+  background-color: transparent;
+  color: #fff;
+}
+.menu .float_right ul ul {
+  top: 25px;
+  margin: 0%;
+  visibility: hidden;
+  width: 120px;
+  background: transparent;
+  line-height: 50px;
+  display: block;
+  position: absolute;
+}
+.menu .float_right ul li .mslslat {
+  left: 23px;
+}
+.menu .float_right ul li .mslslat li {
+  width: 180px;
+  text-align: right;
+}
+
+.menu ul li:hover > ul {
+  visibility: visible;
+}
+
+.menu .float_right ul li ul li {
+  top: 26px;
+  margin: 0;
+  width: 150px;
+  line-height: 40px;
+  text-align: center;
+  left: 20px;
+  background: #523867;
+  border-top: 1px solid #673ab7;
+  border-radius: 3px;
+}
+.menu .float_right ul li ul li:hover {
+  background: #432b56;
+}
+.menu .icone a {
+  display: inline-block;
+  position: relative;
+  left: 19px;
+  top: 8px;
+}
